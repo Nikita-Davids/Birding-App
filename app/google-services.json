@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "853782503539",
+    "firebase_url": "https://birdhaven-af393-default-rtdb.firebaseio.com",
+    "project_id": "birdhaven-af393",
+    "storage_bucket": "birdhaven-af393.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853782503539:android:71f484e79899f68c02ca06",
+        "android_client_info": {
+          "package_name": "com.rnkbirdhaven.bird_haven"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853782503539-7543vcqc3ciq41h1atknc546vmf580lq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8MpjTmEJRubJAkViyZMLGz6dTQ2K1RHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853782503539-7543vcqc3ciq41h1atknc546vmf580lq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

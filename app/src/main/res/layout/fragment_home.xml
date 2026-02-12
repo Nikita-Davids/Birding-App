@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnLoadImage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Home"
+        android:textAlignment="center"
+        android:textSize="26sp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/description_for_the_horizontal_scroll_view"
+        android:foregroundGravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="2dp"
+                android:src="@drawable/image1" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="2dp"
+                android:src="@drawable/image2" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="2dp"
+                android:src="@drawable/image3" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="2dp"
+                android:src="@drawable/image4" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="2dp"
+                android:src="@drawable/image5" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="2dp"
+                android:src="@drawable/image6" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBirdClassifier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            android:text="Bird Classifier"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnCheckWeather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:text="Check Weather"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="385dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/description_for_the_horizontal_scroll_view"
+        android:foregroundGravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewTips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Bird Safety Tips"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewTip1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Educate Yourself and others"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTip1Content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Get to know the local bird species, their migratory routes, and their requirements. The more information you have, the better you can defend them and raise awareness." />
+
+            <TextView
+                android:id="@+id/textViewTip2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.Bird watching"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTip2Content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Should be done responsibly by causing as little disruption as possible to the birds and their habitats. To see things clearly at a distance, use binoculars or a telephoto lens." />
+
+            <TextView
+                android:id="@+id/textViewTip3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.Reduce Light Pollution"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTip3Content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Nighttime artificial lighting might confuse birds. To reduce light pollution, cover outdoor lights and, when practical, install motion-sensor lights." />
+
+            <TextView
+                android:id="@+id/textViewTip4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.Water Sources"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTip4Content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Install bird baths or small ponds to provide birds with a source of fresh water for drinking and bathing. Be sure to clean and refill them regularly." />
+
+            <TextView
+                android:id="@+id/textViewTip5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.Plant Native Plants"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTip5Content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Plant native trees, shrubs, and flowers to create an environment that is bird-friendly. Birds can find natural food supplies and refuge in native vegetation." />
+
+            <TextView
+                android:id="@+id/textViewTip6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6.Aid organisations dedicated to bird conservation"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTip6Content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Contribute to or work with organisations that protect and conserve bird populations by volunteering or donating." />
+
+            <TextView
+                android:id="@+id/textViewTip7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7.Birds in need of rescue and rehabilitation"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTip7Content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="If you come across a hurt bird, get help from a nearby wildlife rehabilitation facility." />
+
+            <TextView
+                android:id="@+id/textViewTip8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8.Support legislation that is bird-friendly"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTip8Content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Promote laws and policies that safeguard bird habitats and lessen risks to bird populations." />
+
+            <TextView
+                android:id="@+id/textViewTip9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9.Reduce the impact of climate change"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTip9Content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="To decrease the impact of climate change on bird habitats, reduce your carbon footprint by utilising energy-efficient equipment, driving less, and promoting renewable energy sources." />
+
+            <TextView
+                android:id="@+id/textViewTip10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10.Avoid Nest Disturbance"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTip10Content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="If you discover a bird nest on your property, avoid disturbing it. Wait until the nesting season is over before pruning trees or shrubs." />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!--Horizontal scrollview(Lakeland,2023)-->

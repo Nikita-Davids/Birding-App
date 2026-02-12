@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item android:title="Explore"
+        android:id="@+id/explore"
+        android:icon="@drawable/baseline_travel_explore_24"/>
+    <item android:title="Sightings"
+        android:id="@+id/sighting"
+        android:icon="@drawable/baseline_linked_camera_24"/>
+    <item android:title="Observation"
+        android:id="@+id/observation"
+        android:icon="@drawable/baseline_insert_drive_file_24"/>
+    <item android:title="Settings"
+        android:id="@+id/settings"
+        android:icon="@drawable/baseline_app_settings_alt_24"/>
+</menu>
