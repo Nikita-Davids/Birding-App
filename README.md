@@ -49,8 +49,4 @@ By clicking the "Settings" icon in the bottom navigation bar, you'll be directed
 ## 🔗 GitHub Web Page Link
 [Bird Haven Web Page](https://vcnmb.github.io/vcnmb-opsc-2023-poe-rnk/)
 
-## 📧 Contact Us
-Feel free to contact any of the following developers for improvements:
-* [ST10085223@vcconnect.edu.za](mailto:ST10085223@vcconnect.edu.za)
-* [ST10085428@vcconnect.edu.za](mailto:ST10085428@vcconnect.edu.za)
-* [ST10085121@vcconnect.edu.za](mailto:ST10085121@vcconnect.edu.za)
+
